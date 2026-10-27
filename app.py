@@ -1,4 +1,5 @@
-
+#   Hello learning python 
+#  Code with changes 
 
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import sqlite3
@@ -55,10 +56,6 @@ Route
 /add --->   add()   -->  add data 
 The route tells Flask which function should execute for a particular URL.
 '''
-
-
-
-
 
 # ---------- Add Expense ----------
 @app.route('/add', methods=['POST'])
